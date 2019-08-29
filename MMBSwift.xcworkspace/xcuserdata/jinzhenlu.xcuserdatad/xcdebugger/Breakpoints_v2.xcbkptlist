@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MMBSwift/Class/Controller/&#x4e2a;&#x4eba;&#x4e2d;&#x5fc3;/PersonalViewController.swift"
+            timestampString = "588742021.954393"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "getUserInfo()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MMBSwift.PersonalViewController.(getUserInfo in _679C24A74384378513F6DFD1F1F9E962)() -&gt; ()"
+                  moduleName = "MMBSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jinzhenlu/Desktop/demo/MMBSwift/MMBSwift/Class/Controller/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83/PersonalViewController.swift"
+                  timestampString = "588742022.170185"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in MMBSwift.PersonalViewController.(getUserInfo in _679C24A74384378513F6DFD1F1F9E962)() -&gt; ()"
+                  moduleName = "MMBSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jinzhenlu/Desktop/demo/MMBSwift/MMBSwift/Class/Controller/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83/PersonalViewController.swift"
+                  timestampString = "588742022.172339"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "202">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

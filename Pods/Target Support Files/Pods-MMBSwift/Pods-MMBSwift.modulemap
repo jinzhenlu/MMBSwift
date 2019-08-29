@@ -1,0 +1,6 @@
+framework module Pods_MMBSwift {
+  umbrella header "Pods-MMBSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
