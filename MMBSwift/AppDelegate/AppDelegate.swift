@@ -15,8 +15,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        window = UIWindow()
+        window?.backgroundColor = UIColor.white
+        let login = LoginViewController()
+        let userInfo = UserDefaults.AccountInfo.dictionary(forKey: .userInfo)
+        if userInfo != nil {
+            window?.rootViewController = XHTabbar()
+        }else{
+            window?.rootViewController = MMBNavigationController(rootViewController: login)//XHTabbar()
+        }
+        self.setNavbar()
+        window?.makeKeyAndVisible()
+        
         return true
+    }
+    
+    func setNavbar(){
+        UINavigationBar.appearance().barTintColor = RGBA(r: 37, g: 37, b: 37, a: 1.0)
+        UINavigationBar.appearance().tintColor = UIColor.white
+        
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 18),NSAttributedString.Key.foregroundColor: UIColor.white]
+        UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 15),NSAttributedString.Key.foregroundColor: UIColor.white], for: UIControl.State.normal)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
