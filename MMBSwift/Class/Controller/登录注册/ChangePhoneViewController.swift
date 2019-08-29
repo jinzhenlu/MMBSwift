@@ -120,9 +120,6 @@ extension ChangePhoneViewController {
         }
     }
     
-    func method(){
-        
-    }
     private func gotoChange(){
         let changePhoneController = ChangePhoneViewController()
         changePhoneController.title = "换绑新手机"
