@@ -51,7 +51,9 @@ extension ChangePhoneViewController {
             CBToast.showToastAction(message: "请输入正确的手机号")
         }
     }
-    
+    func method(){
+        
+    }
     @objc private func countDown(){
         self.time -= 1
         if time > 0 {
