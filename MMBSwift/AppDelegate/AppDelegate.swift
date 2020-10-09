@@ -26,12 +26,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             window?.rootViewController = MMBNavigationController(rootViewController: login)//XHTabbar()
         }
         self.setNavbar()
+        
         window?.makeKeyAndVisible()
         
         return true
     }
     
     func setNavbar(){
+        print("111222333")
         UINavigationBar.appearance().barTintColor = RGBA(r: 37, g: 37, b: 37, a: 1.0)
         UINavigationBar.appearance().tintColor = UIColor.white
         
